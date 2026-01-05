@@ -10003,6 +10003,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1802851399}
   - component: {fileID: 1802851398}
+  - component: {fileID: 1802851400}
   m_Layer: 0
   m_Name: ArrowInput
   m_TagString: Untagged
@@ -10038,6 +10039,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1802851400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1802851397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68adc840cbfcad24b9e660115c663311, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ArrowToggleInput_NewInput
+  arrowPointer: {fileID: 4225537735101454199}
+  toggleAction: {fileID: -7571047696460450061, guid: 423cb08a2313e9e4f930f02ba2401741, type: 3}
 --- !u!1 &1803250728
 GameObject:
   m_ObjectHideFlags: 0
